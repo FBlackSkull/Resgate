@@ -9,7 +9,6 @@
 ###########################################################################################################
 import os, time, sys
 
-sys.stdout.flush()
 print('VERIFICANDO SISTEMA...\n')
 time.sleep(1)
 os.system('pip install paramiko')
