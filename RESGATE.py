@@ -9,8 +9,7 @@
 ################################# IMPORTANDO DEMAIS PARAMETROS NECESSÁRIOS ################################
 ###########################################################################################################
 import os, time, sys
-import json, threading, re, shutil, tarfile, subprocess, platform, paramiko, socket
-from paramiko import SSHClient, AutoAddPolicy, transport, SecurityOptions, ssh_exception
+import json, threading, re, shutil, tarfile, subprocess, platform, socket
 from datetime import datetime
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
